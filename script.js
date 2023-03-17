@@ -16,5 +16,6 @@ function elemekElerese2() {
 }
 
 function elemekElerese3() {
-  /**Ide jön az 3. feladat */
+  const ELEM = document.getElementsByClassName("ide")[0];
+  ELEM.innerHTML += "<p>Jó reggelt!</p>";
 }
