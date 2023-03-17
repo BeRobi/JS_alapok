@@ -10,7 +10,9 @@ function elemekElerese1() {
 }
 
 function elemekElerese2() {
-  /**Ide jön az 2. feladat */
+  const ELEM = document.querySelectorAll("#ide")[0];
+  console.log(ELEM);
+  ELEM.innerHTML += "<p>Jó reggelt!</p>";
 }
 
 function elemekElerese3() {
